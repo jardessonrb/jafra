@@ -1,0 +1,26 @@
+{
+    "name": "sistema/jafra",
+    "description": "Um e-commerce",
+    "type": "project",
+    "require": {
+        "composer-runtime-api": "*",
+        "league/plates": "^3.4",
+        "coffeecode/router": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Source\\": "src/"
+        },
+        "files": [
+          "source/Config.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jardesson",
+            "email": "jardesson@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

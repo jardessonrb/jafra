@@ -1,0 +1,13 @@
+body{
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+.element-product{
+    border: 1px solid #DDDD;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
