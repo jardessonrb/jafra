@@ -1,6 +1,6 @@
 <?php
 // DEFINIÇÕES DO SISTEMA
-define("ROOT", "https://localhost/jafra");
+define("ROOT", "http://localhost/jafra");
 define("ROOTSCRIPT", "https://localhost/jafra/source/public/pages");
 define("SITE", "Jafra");
 define("CREATOR", "Járdesson");

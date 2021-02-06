@@ -1,13 +1,139 @@
-body{
-    background-color: #FFF;
+/*CSS INICIAL DA PAGINA, DEPOIS PODERÁ SER COLOCADO EM UM GLOBAL*/
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.element-product{
-    border: 1px solid #DDDD;
-    width: 200px;
-    height: 200px;
-    margin-left: 80px;
-    margin-top: 30px;
+a{
+    text-decoration: none;
 }
+
+
+/*CSS APENAS DO HEADER, OU O TOP DO SITE, ESSA PARTE VAI VIRAR UM FRAGMENTO, ENÃO ESSE
+CSS VAI JUNTO COM O FRAGMENTO*/
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container-header{
+    display: flex;
+}
+
+.header-options{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+}
+
+.logo{
+    flex: 1;
+    position: relative;
+    align-items: center;
+    
+}
+
+.image-logo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.options{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-image-options, .icone-image-login{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.area-login{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+.link-login{
+    color: #C71F16;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: var(--main-color);
+}
+
+.link-category{
+    color: rgb(248, 241, 241);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* AQUI COMEÇA O CSS DO CONTEÚDO DO SITE, ALGUMAS PARTE IRAM SAIR COMO FRAGMENTOS, ENTÃO
+ALGUMA PARTE DO CSS VAI MUDAR DE LOCAL*/
+
+.container-content{
+    width: 100%;
+}
+.content-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*ESSA PARTE JÁ DAR PARA VIRAR UM FRAGMENTO, ENTÃO ESSE CSS VAI JUNTO*/
+.product-showcase-list{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 400px;
+}
+
+.product-showcase-list .imagem-product-list{
+    width: 100%;
+    height: 190px;
+}
+
+.product-showcase-list .name-product-list{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.product-showcase-list .value-product-list{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(66, 64, 64);
+    margin-top: 10px;
+}
+
