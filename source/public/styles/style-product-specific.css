@@ -1,0 +1,166 @@
+/*AQUI COMEÇA O CSS DA PAGINA PRODUCT SPECIFIC*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+
+
+.content-product{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-miniature-images{
+    display: flex;
+    flex-direction: column;
+}
+
+.miniature-image{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.information-product{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.image-product{
+    width: 430px;
+    height: 450px;
+    border: 1px solid #ccc;
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.informations .name-product{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.informations .value-product {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(99, 96, 96);
+}
+
+.informations .description-product{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(163, 159, 159);
+}
+.informations .amount-stock{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    color:#d1534c;
+}
+
+
+.informations .button{
+    border: none;
+    width: 250px;
+    height: 37px;
+    background-color:#eb665f;
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.informations .button:hover{
+    background-color:#ec453c;
+    cursor: pointer;
+}
+
+.information-additional{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.information-additional .information{
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(107, 105, 105);
+}
+.information-additional .references-product{
+    border-top: 0.5px solid rgb(199, 196, 196);
+    border-bottom: 0.5px solid rgb(199, 196, 196);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.references-product .information{
+    font-size: 15px;
+    color: rgb(107, 105, 105);
+}
+
+
+
+
+.content-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 80px;
+    
+}
+
+
+
+/*ESSA PARTE JÁ DAR PARA VIRAR UM FRAGMENTO, ENTÃO ESSE CSS VAI JUNTO*/
+.product-showcase-list{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    height: 400px;
+}
+
+.product-showcase-list .imagem-product-list{
+    width: 100%;
+    height: 190px;
+}
+
+.product-showcase-list .name-product-list{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.product-showcase-list .value-product-list{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(99, 96, 96);
+    margin-top: 10px;
+}
+
+

@@ -19,4 +19,11 @@ class ServerController{
     "title" => SITE. " | Home" , []
   ]);
   }
+
+  public function specificProduct($idProduct):void
+  {
+      echo $this->view->render("product-specific", [
+    "title" => SITE. " | Product-Specific" , []
+  ]);
+  }
 }

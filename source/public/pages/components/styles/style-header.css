@@ -1,0 +1,80 @@
+/*CSS APENAS DO HEADER, OU O TOP DO SITE, ESSA PARTE VAI VIRAR UM FRAGMENTO, ENÃO ESSE
+CSS VAI JUNTO COM O FRAGMENTO*/
+
+a{
+    text-decoration: none;
+}
+
+.container-header{
+    display: flex;
+}
+
+.header-options{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+}
+
+.logo{
+    flex: 1;
+    position: relative;
+    align-items: center;
+    
+}
+
+.image-logo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.options{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-image-options, .icone-image-login{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.area-login{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+.link-login{
+    color: #C71F16;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.header-category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #C71F16;
+}
+
+.link-category{
+    color: rgb(248, 241, 241);
+    font-size: 15px;
+    font-weight: bold;
+}
