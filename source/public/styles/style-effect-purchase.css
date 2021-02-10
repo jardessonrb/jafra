@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(85, 81, 81); 
+    margin-bottom: 20px;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 40px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data-delivery{
+    display: flex;
+    flex: 1.2;
+    flex-direction: column;
+    border: 6px solid rgb(223, 219, 219);
+    padding: 15px 20px 15px 20px;
+    margin-right: 20px;
+}
+
+.data-names{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.data-names .input-data{
+    width: 280px;
+}
+
+.data-state{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data-state #state-andress{
+    width: 380px;
+    margin-right: 20px;
+}
+.data-state #cep-andress{
+    width: 180px;
+   
+}
+
+
+.area-annotation-request .input-data-area{
+    width: 100%;
+    height: 80px;
+    resize: none;
+    padding: 10px 10px;
+    border: 0.5px solid rgb(214, 210, 210);
+    color: rgb(87, 84, 84);
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/*Aqui é só uma forma de colocar a label em cima do input mesmo tendo um flex-direction: row;*/
+.data-names input{
+    display: block;
+}
+
+.data-state input{
+    display: block;
+}
+
+.area-annotation-request textarea{
+    display: block;
+}
+
+.data-adress{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-data{
+    height: 40px;
+    padding: 5px 5px;
+    border: 0.5px solid rgb(214, 210, 210);
+    color: rgb(87, 84, 84);
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.input-data::placeholder{
+    color: rgb(121, 118, 118);    
+}
+
+.input-data:focus{
+    background-color: rgb(255, 248, 248);   
+}
+
+
+.label-inputs{
+    font-size: 16px;
+    color: rgb(85, 81, 81);
+}
+
+
+/*Aqui começa a estilização da parte da nota da compra*/
+.sale-note-complet{
+    display: flex;
+    flex: 1;
+    max-height: 700px;
+    flex-direction: column;
+    border: 4px solid rgb(223, 219, 219);
+    padding: 20px;
+}
+.top{
+    text-align: center;
+}
+.sale-note-complet span{
+    max-width: 200px;
+}
+.sale-note-complet  .header, .products-note .products, .subtotal, .delivery-note, .totale-request {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.products-note, .header{
+    border-bottom: 1px solid rgb(233, 230, 230);
+    
+}
+
+.sale-note-complet .header .name-header{
+    color: rgb(131, 131, 131);
+    font-size: 18px;
+    font-weight: bold;
+}
+.sale-note-complet .products-note .products .name-product, .locale-delivery{
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(87, 84, 84);
+}
+
+.sale-note-complet .products-note .products .value-product{
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(87, 84, 84);
+}
+.note-label{
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(53, 51, 51);
+}
+
+.qnt{
+    color: rgb(54, 52, 52);
+    font-size: 17px;
+    font-weight: bold;
+}
+.subvalue-total{
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(196, 73, 73);
+}
+.value-total{
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(196, 73, 73);
+}
+
+
+
+
+
+
+
+.area-button-update{
+    display: flex;
+    justify-content: center;
+}
+.area-button-update .button{
+    border: none;
+    width: 250px;
+    height: 37px;
+    background-color:#eb665f;
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.area-button-update .button:hover{
+    background-color:#ec453c;
+    cursor: pointer;
+}
+

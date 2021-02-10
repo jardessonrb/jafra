@@ -1,6 +1,8 @@
 /*CSS APENAS DO HEADER, OU O TOP DO SITE, ESSA PARTE VAI VIRAR UM FRAGMENTO, ENÃO ESSE
 CSS VAI JUNTO COM O FRAGMENTO*/
 
+
+
 a{
     text-decoration: none;
 }
@@ -44,6 +46,7 @@ a{
     width: 25px;
     height: 25px;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .area-login{

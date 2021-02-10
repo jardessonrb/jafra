@@ -16,14 +16,15 @@
         </div>
         <div class="container-content">
             <div class="content-product">
+                <div class="modal" id="id-modal"></div>
                 <div class="section-miniature-images">
-                    <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
-                    <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
-                    <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
-                    <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
+                    <!-- EXEMPLO CHAMANDO UMA FUNÇÃO JAVASCRIPT PARA MUDAR AS IMAGENS DO PRODUTO -->
+                    <img class="miniature-image" id="miniature-image1" onclick="changeImage('miniature-image1')" src="<?= url('source/public/assets/produto04.jpg') ?>" alt="miniatura de imagem" />
+                    <img class="miniature-image" id="miniature-image2" onclick="changeImage('miniature-image2')" src="<?= url('source/public/assets/produto01.jpg') ?>" alt="miniatura de imagem" />
+                    <img class="miniature-image" id="miniature-image3" onclick="changeImage('miniature-image3')" src="<?= url('source/public/assets/produto05.jpg') ?>" alt="miniatura de imagem" />
                 </div>
                 <div class="information-product">
-                    <img class="image-product" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="imagem do produto" />
+                    <img class="image-product" id="image-product" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="imagem do produto" />
                     <div class="informations">
                         <strong class="name-product">Camisa PHP: TAM 40/42</strong>
                         <span class="value-product">R$ 55.99</span>
