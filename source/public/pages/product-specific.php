@@ -6,7 +6,10 @@
 	<title><?= $title ?></title>
     <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-product-specific.css") ?>">
     <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/global.css") ?>">
-    <script type="text/javascript" src="<?= url("source/public/scripts/test.js") ?>"></script>
+    <script type="text/javascript" src="<?= url("source/public/scripts/modal.js") ?>"></script>
+    
+    <link rel="stylesheet" href="<?= url("source/public/pages/components/styles/style-favorites-modal.css") ?>" />
+    
 </head>
 <body>
     <div class="container">
@@ -15,13 +18,13 @@
             <?php $this->insert("components/header"); ?>
         </div>
         <div class="container-content">
+            <div class="modal" id="id-modal"></div>
             <div class="content-product">
-                <div class="modal" id="id-modal"></div>
                 <div class="section-miniature-images">
                     <!-- EXEMPLO CHAMANDO UMA FUNÇÃO JAVASCRIPT PARA MUDAR AS IMAGENS DO PRODUTO -->
-                    <img class="miniature-image" id="miniature-image1" onclick="changeImage('miniature-image1')" src="<?= url('source/public/assets/produto04.jpg') ?>" alt="miniatura de imagem" />
-                    <img class="miniature-image" id="miniature-image2" onclick="changeImage('miniature-image2')" src="<?= url('source/public/assets/produto01.jpg') ?>" alt="miniatura de imagem" />
-                    <img class="miniature-image" id="miniature-image3" onclick="changeImage('miniature-image3')" src="<?= url('source/public/assets/produto05.jpg') ?>" alt="miniatura de imagem" />
+                    <img class="miniature-image" id="miniature-image1" onclick="Image.changeImage('miniature-image1')" src="<?= url('source/public/assets/produto04.jpg') ?>" alt="miniatura de imagem" />
+                    <img class="miniature-image" id="miniature-image2" onclick="Image.changeImage('miniature-image2')" src="<?= url('source/public/assets/produto01.jpg') ?>" alt="miniatura de imagem" />
+                    <img class="miniature-image" id="miniature-image3" onclick="Image.changeImage('miniature-image3')" src="<?= url('source/public/assets/produto05.jpg') ?>" alt="miniatura de imagem" />
                 </div>
                 <div class="information-product">
                     <img class="image-product" id="image-product" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="imagem do produto" />
