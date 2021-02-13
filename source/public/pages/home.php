@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?= $title ?></title>
     <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-home.css") ?>">
-    <!-- <script type="text/javascript" src="<?= url("source/public/scripts/test.js") ?>"></script> -->
     <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-favorites-modal.css") ?>">
+    <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-login-modal.css") ?>" />
 </head>
 <body>
     <div class="container">

@@ -1,0 +1,122 @@
+.absolut-view-modal{
+    /* transition: width 2s cubic-bezier(0.000, 0.000, 0.580, 1.000); */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.container-content-modal{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+
+.area-button-close{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.modal-top-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.close-modal{
+    width: 35px;
+    height: 35px;
+    background-color:rgb(248, 247, 247);
+    border-radius: 50%;
+    border: 0.5px solid rgb(240, 234, 234);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.close-modal:hover{
+    background-color:rgb(212, 68, 68);
+    border: none;
+    color:rgb(248, 247, 247);
+}
+
+.content-main-modal{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0 50px 0 50px;
+    margin-bottom: 0;
+    
+}
+
+.area-redefine-password{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.modal-label{
+    font-size: 16px;
+    color:rgb(82, 80, 80);
+    margin-bottom: 5px;
+}
+
+.modal-input:focus{
+    border: none;
+}
+
+.modal-button{
+    border: none;
+    height: 35px;
+    background-color:#eb665f;
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.modal-button:hover{
+    background-color:#ec453c;
+    cursor: pointer;
+}
+
+.link-redefine-password{
+    font-size: 13px;
+    color: #eb665f;
+    
+}
+
+.link-redefine-password:hover{
+    font-size: 13px;
+    color: #eb2e24;
+}
+
+.modal-input{
+    border: 0.5px solid rgb(216, 209, 209);
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: rgb(71, 68, 68);
+    font-weight: 600;
+    /* display: block; */
+}
+
+.modal-input::placeholder{
+    color:rgb(71, 68, 68);
+    font-size: 12px;
+}
+
+.image-top-login{
+    width: 100px;
+    height: 80px;
+}

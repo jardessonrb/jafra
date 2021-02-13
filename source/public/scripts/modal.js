@@ -59,8 +59,48 @@ const Modal = {
 
         divMain.classList.add("content-modal");
 
+        document.body.style.overflow = 'hidden';
+
         divModal.appendChild(divMain);
     },
+    
+    openModalLogin(){
+       
+        const divModal = document.getElementById('id-modal');
+        const divMain  = document.createElement('div');
+        divModal.classList.add("absolut-view");
+        
+        divMain.innerHTML += `
+        <div class="container-content-modal">
+            <div class="area-button-close">
+                <button class="close-modal" onclick="Modal.closeModal()"><span>X</span></button>
+            </div> 
+            <div class="modal-top-login">
+                <img class="image-top-login" src="http://localhost/jafra/source/public/assets/login03.png"/>
+            </div>
+            <div class="content-main-modal">
+                <label class="modal-label">Seu super usuário</label>
+                <input class="modal-input" id="name-user" placeholder="Seu usuário"/>
+                <label class="modal-label">Sua super senha</label>
+                <input type="password" class="modal-input" id="password-user" placeholder="Sua senha"/>
+                <button class="modal-button">Entrar na minha super conta</button>
+                <div class="area-redefine-password">
+                    <a class="link-redefine-password" href="http://localhost/jafra/redefinir-senha">Redefinir super senha</a>
+                </div>
+            </div>
+        </div>
+        `;
+
+        divMain.classList.add("content-modal");
+
+        document.body.style.overflow = 'hidden';
+        divModal.appendChild(divMain);
+
+    },
+
+
+
+
 
     closeModal(){
         const divModal = document.getElementById('id-modal');

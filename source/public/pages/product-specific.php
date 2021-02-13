@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?= $title ?></title>
     <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-product-specific.css") ?>">
-    <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/global.css") ?>">
-    <script type="text/javascript" src="<?= url("source/public/scripts/modal.js") ?>"></script>
+    <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-favorites-modal.css") ?>">
+    <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-login-modal.css") ?>" />
     
-    <link rel="stylesheet" href="<?= url("source/public/pages/components/styles/style-favorites-modal.css") ?>" />
     
 </head>
 <body>
     <div class="container">
+        <div class="modal" id="id-modal"></div>
         <div class="header">
         <!-- AQUI EU IMPORTO MEU HEADER, OU MENU, COMO COMPONENT -->
             <?php $this->insert("components/header"); ?>
         </div>
         <div class="container-content">
-            <div class="modal" id="id-modal"></div>
             <div class="content-product">
                 <div class="section-miniature-images">
                     <!-- EXEMPLO CHAMANDO UMA FUNÇÃO JAVASCRIPT PARA MUDAR AS IMAGENS DO PRODUTO -->
@@ -80,3 +79,15 @@
     </div>
 </body>
 </html>
+
+
+<?php $this->push('scripts') ?>
+    <script>
+        const Modal = {
+            openModalFavorites(){
+                alert("essa merda abre um modal ...");
+            }
+        }
+    </script>
+    <!-- <script type="text/javascript" src="<?= url("source/public/scripts/modal.js") ?>"></script> -->
+<?php $this->end() ?>

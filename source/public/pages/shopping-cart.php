@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?= $title ?></title>
     <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-shopping-cart.css") ?>">
+    <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-favorites-modal.css") ?>">
+    <link rel="stylesheet" type="text/css" href="<?= url("source/public/styles/style-login-modal.css") ?>" />
     <script type="text/javascript" src="<?= url("source/public/scripts/test.js") ?>"></script>
 </head>
 <body>
     <div class="container">
+        <div class="modal" id="id-modal"></div>
         <div class="header">
         <!-- AQUI EU IMPORTO MEU HEADER, OU MENU, COMO COMPONENT -->
             <?php $this->insert("components/header"); ?>
