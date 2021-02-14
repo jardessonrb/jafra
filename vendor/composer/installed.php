@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'e09ab6e654cd82f3716e459835b8fedaa35503b8',
     'name' => 'sistema/jafra',
   ),
   'versions' => 
@@ -31,12 +31,12 @@
     ),
     'sistema/jafra' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'e09ab6e654cd82f3716e459835b8fedaa35503b8',
     ),
   ),
 );

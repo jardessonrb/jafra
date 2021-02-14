@@ -5,7 +5,8 @@
     "require": {
         "composer-runtime-api": "*",
         "league/plates": "^3.4",
-        "coffeecode/router": "1.0.*"
+        "coffeecode/router": "1.0.*",
+        "ext-pdo": "*"
     },
     "autoload": {
         "psr-4": {

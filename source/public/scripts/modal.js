@@ -79,6 +79,8 @@ const Modal = {
                 <img class="image-top-login" src="http://localhost/jafra/source/public/assets/login03.png"/>
             </div>
             <div class="content-main-modal">
+                <label class="modal-label">Seu melhor E-mail</label>
+                <input type="password" class="modal-input" id="email-user" placeholder="Seu melhor email"/>
                 <label class="modal-label">Seu super usuário</label>
                 <input class="modal-input" id="name-user" placeholder="Seu usuário"/>
                 <label class="modal-label">Sua super senha</label>

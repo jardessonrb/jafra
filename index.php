@@ -11,6 +11,7 @@ $router->get("/carrinho", "ServerController:shoppingCart");
 $router->get("/efetuar-compra", "ServerController:effectPurchase");
 $router->get("/redefinir-senha", "ServerController:redefinePassword");
 
+// $router->get("/test-dba", "TestController:hum");
 
 
 $router->dispatch();

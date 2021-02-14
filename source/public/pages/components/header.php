@@ -17,7 +17,7 @@
                     <img class="image-logo" src="<?= url('source/public/assets/logo-store.png') ?>" alt="logo da loja">
                 </div>
                 <div class="options" id="options">
-                    <img class="icone-image-options" src="<?= url('source/public/assets/shoping-cart.png') ?>" alt="icone carrinho">
+                    <a href="<?= url("carrinho") ?>"><img class="icone-image-options" src="<?= url('source/public/assets/shoping-cart.png') ?>" alt="icone carrinho"></a>
                     <img class="icone-image-options" id="icone-favorite" onclick="Modal.openModalFavorites()" src="<?= url('source/public/assets/heart-favorites.png') ?>" alt="icone meus favoritos">
                     <img class="icone-image-options" onclick="Search.searchProduct()" src="<?= url('source/public/assets/search-product.png') ?>" alt="icone pesquisa">
                 </div>
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="header-category">
-                <a class="link-category" href="<?= url(); ?>">Inicio</a>
+                <a class="link-category" href="<?= url() ?>">Inicio</a>
                 <a class="link-category" href="#">Categoria 1</a>
                 <a class="link-category" href="#">Categoria 1</a>
                 <a class="link-category" href="#">Categoria 1</a>

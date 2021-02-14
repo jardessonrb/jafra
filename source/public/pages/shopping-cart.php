@@ -31,47 +31,47 @@
                                 <h3 class="headers">TOTAL</h3>
                             </div>
                         </div>
-                        <div class="products-cart-main">
-                            <div class="products-cart-item">
-                                <span class="item-remove" onclick="alert('produto removido')">x</span>
-                                <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
-                                <strong class="name-product">Camisa PHP: TAM 40/42</strong>
-                            </div>
-                            <div class="products-cart-values">
-                                <span class="value-product">R$ 55.99</span>
-                                <div class="amount-product">
-                                    <span class="amount-product-qnt" id="amount-product-qnt">1</span>
-                                    <div class="agroup-count">
-                                        <button class="amount-product-plus" onclick="qntPro('plus')">+</button>
-                                        <button class="amount-product-less" onclick="qntPro('less')">-</button>
-                                        <!-- <span class="amount-product-plus">+</span> -->
-                                        <!-- <span class="amount-product-less">-</span> -->
-                                    </div>
+                        <div class="container-products" id="container-products">
+                            <div class="products-cart-main" id="id-product-1">
+                                <div class="products-cart-item">
+                                    <span class="item-remove" onclick="Main.removeProductShoppingCart('id-product-1')">x</span>
+                                    <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
+                                    <strong class="name-product">Camisa PHP 2: TAM 40/42</strong>
                                 </div>
-                                <span class="subtotal-product">R$ 55.99</span>
+                                <div class="products-cart-values">
+                                    <span class="value-product">R$ 55.99</span>
+                                    <div class="amount-product">
+                                        <span class="amount-product-qnt" id="amount-product-qnt">1</span>
+                                        <div class="agroup-count">
+                                            <button class="amount-product-plus" onclick="Main.qntPro('plus')">+</button>
+                                            <button class="amount-product-less" onclick="Main.qntPro('less')">-</button>
+                                            <!-- <span class="amount-product-plus">+</span> -->
+                                            <!-- <span class="amount-product-less">-</span> -->
+                                        </div>
+                                    </div>
+                                    <span class="subtotal-product">R$ 55.99</span>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <!-- TESTANDO COMO FICA COM MUITOS PRODUTOS -->
+                            
+                            <!-- TESTANDO COMO FICA COM MUITOS PRODUTOS -->
 
-                        <div class="products-cart-main">
-                            <div class="products-cart-item">
-                                <span class="item-remove" onclick="alert('produto removido')">x</span>
-                                <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
-                                <strong class="name-product">Camisa PHP: TAM 40/42</strong>
-                            </div>
-                            <div class="products-cart-values">
-                                <span class="value-product">R$ 55.99</span>
-                                <div class="amount-product">
-                                    <span class="amount-product-qnt" id="amount-product-qnt">1</span>
-                                    <div class="agroup-count">
-                                        <button class="amount-product-plus" onclick="qntPro('plus')">+</button>
-                                        <button class="amount-product-less" onclick="qntPro('less')">-</button>
-                                        <!-- <span class="amount-product-plus">+</span> -->
-                                        <!-- <span class="amount-product-less">-</span> -->
-                                    </div>
+                            <div class="products-cart-main" id="id-product-2">
+                                <div class="products-cart-item">
+                                    <span class="item-remove" onclick="Main.removeProductShoppingCart('id-product-2')">x</span>
+                                    <img class="miniature-image" src="<?= url('source/public/assets/produto03.jpg') ?>" alt="miniatura de imagem" />
+                                    <strong class="name-product">Camisa PHP: TAM 40/42</strong>
                                 </div>
-                                <span class="subtotal-product">R$ 55.99</span>
+                                <div class="products-cart-values">
+                                    <span class="value-product">R$ 55.99</span>
+                                    <div class="amount-product">
+                                        <span class="amount-product-qnt" id="amount-product-qnt">1</span>
+                                        <div class="agroup-count">
+                                            <button class="amount-product-plus" onclick="qntPro('plus')">+</button>
+                                            <button class="amount-product-less" onclick="qntPro('less')">-</button>
+                                        </div>
+                                    </div>
+                                    <span class="subtotal-product">R$ 55.99</span>
+                                </div>
                             </div>
                         </div>
                     </div>
